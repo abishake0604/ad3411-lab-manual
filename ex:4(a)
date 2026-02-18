@@ -1,0 +1,10 @@
+importnumpyasnp# linear algebra
+importpandasaspd# data processing, CSV file I/O (e.g. pd.read_csv)
+importnltk
+items = ['apple', 'apple', 'kiwi', 'cabbage', 'cabbage', 'potato']
+nltk.FreqDist(items)
+c_items=[('F,'apple'),('F','apple'), ('F','kiwi'), ('V','cabbage'), ('V','cabbage'), ('V','potato') ]
+cfd=nltk.ConditionalFreqDist(c_items)
+cfd.conditions()
+cfd.plot()
+cfd[ʹV']
