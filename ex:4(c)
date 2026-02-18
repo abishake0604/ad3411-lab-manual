@@ -1,0 +1,8 @@
+fromnltk.corpusimport names
+nt=[(fid.split('.')[0], name[-1]) for fid innames.fileids() for name innames.words(fid) ]
+cfd2 =nltk.ConditionalFreqDist(nt)
+cfd2['female']['a']
+cfd2['male']['a']
+cfd2['female'] >cfd2['male']
+cfd2.tabulate(samples=['a','e'])
+cfd2.plot()
