@@ -1,0 +1,15 @@
+Name Age City
+0 Alice 25 New York
+1 Bob 30 Los Angeles
+2 Charlie 35 Chicago
+Name Age City
+2 Charlie 35 Chicago
+Name Age City Senior
+0 Alice 25 New York False
+1 Bob 30 Los Angeles False
+2 Charlie 35 Chicago True
+City
+Chicago 35.0
+Los Angeles 30.0
+New York 25.0
+Name: Age, dtype: float64
