@@ -24,3 +24,17 @@ ax.spines['left' ].set_bounds(-3, 40)
 # set the interval by which
 # the x-axis set the marks
 plt.xticks(list(range(-3,10)))
+# set the marks
+plt.yticks(list(range(-3, 20, 3)))
+# legend denotes that what color
+# signifies what
+ax. legend(['1st Rep', '2nd Rep', '3rd Rep', '4th Rep'])
+# annotate command helps to write
+# ON THE GRAPH any text xy denotes
+# the position on the graph
+plt.annotate('Temperature V / s Days', xy = (1.01, -2.15))
+# gives a title to the Graph
+plt.title('All Features Discussed')
+plt.show()
+
+# set the intervals by which y-axis
